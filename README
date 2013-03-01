@@ -1,5 +1,14 @@
-Database Setup (using mongodb):
-  db_name: "nero_project"
-    collections: [
-      "documents"
-    ]
+Database Setup (using mongodb) -
+
+  databases: [
+    { db_name: "nero_project",
+      collections: [
+        "documents"
+      ]
+    },
+    { db_name: "nero_project_test",
+      collections: [
+        "documents"
+      ]
+    }
+  ]
