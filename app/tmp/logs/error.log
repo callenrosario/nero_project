@@ -1,0 +1,19 @@
+2013-03-01 11:57:57 Error: [MissingControllerException] Controller class DocumentsController could not be found.
+Exception Attributes: array (
+  'class' => 'DocumentsController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/callenrosario/Development/Personal/nero_project/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-01 11:58:22 Error: Fatal Error (1): Class 'Mongo' not found in [/Users/callenrosario/Development/Personal/nero_project/lib/Cake/Model/ConnectionManager.php, line 101]
+2013-03-01 11:58:22 Error: [FatalErrorException] Class 'Mongo' not found
+Request URL: /
+Stack Trace:
+#0 /Users/callenrosario/Development/Personal/nero_project/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Class 'Mongo' n...', '/Users/callenro...', 101)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Mongo' n...', '/Users/callenro...', 101, Array)
+#2 /Users/callenrosario/Development/Personal/nero_project/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Mongo' n...', '/Users/callenro...', 101, Array)
+#3 /Users/callenrosario/Development/Personal/nero_project/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
