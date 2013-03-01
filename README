@@ -1,0 +1,5 @@
+Database Setup (using mongodb):
+  db_name: "nero_project"
+    collections: [
+      "documents"
+    ]
